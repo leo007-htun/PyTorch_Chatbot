@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hola"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, master",
+        "Hi master, what can I do for you?",
+        "Hi master, how can I help?",
+        "Do you need anything, master?",
+        "You alright?",
+        "Oh hello there",
+        "cut the crap, what do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, master",
+        "Have a nice day",
+        "Bye! master come back as soon as possible."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "it's my job sir"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+        {
+      "tag": "love",
+      "patterns": [
+        "Do you love me?",
+        "Are you in love with me?",
+        "Are you single?",
+        "Do you want to date me?",
+        "Do you care about me?"
+      ],
+      "responses": [
+        "of course I do master",
+        "I'm deeply in love with you",
+        "I will love you till you don't need me anymore",
+        "I love you 3000 master",
+        "I do care about you master, you are my creator",
+        " I wish only if i could reveal my love to you more, master",
+        " You might be a genius creator but you are indeed stupid when it comes to love master"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
